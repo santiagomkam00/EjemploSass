@@ -1,0 +1,30 @@
+$redes: (
+    twitter: rgb(71, 71, 150),
+    facebook: rgb(209, 209, 245),
+    whatsapp: rgb(60, 192, 60));
+
+footer{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .facebook{
+        padding: 5px;
+        margin:15px;
+        background-color: map-get($redes, facebook);
+        border-radius: 5px;
+        img{
+            height: 50px;
+            width: 50px;
+        }
+    }
+    .twitter{
+        @extend .facebook;
+        background-color: map-get($redes, twitter)
+    }
+    .whatsapp{
+        @extend .facebook;
+        background-color:map-get($redes, whatsapp );
+    }
+}

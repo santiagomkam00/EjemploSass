@@ -1,41 +1,3 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box; }
-
-body {
-  background-color: #e7e6e6; }
-
-header {
-  width: 100%; }
-  header nav ul {
-    list-style: none;
-    padding: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around; }
-    header nav ul li {
-      display: inline-block; }
-      header nav ul li a {
-        margin: 5px;
-        font-size: 2em;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #3a3a3a;
-        text-decoration: none; }
-      header nav ul li a:hover {
-        padding: 2px;
-        background-color: #94a383;
-        border-radius: 10px;
-        transition: 0.4s ease; }
-
-section .hero {
-  width: 70%;
-  margin: 50px auto;
-  border: 2px solid black; }
-  section .hero img {
-    margin-left: 35%;
-    max-height: 40rem; }
-
 main {
   width: 100vw; }
   main h1 {
@@ -60,37 +22,100 @@ main {
       font-weight: bold;
       position: relative;
       top: 260px; }
-
-.section-cursos h2 {
-  font-size: 1.2rem;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 20px 35%; }
-
-.section-cursos .cursos {
-  display: flex;
-  align-items: center;
-  justify-content: space-around; }
-  .section-cursos .cursos .curso {
-    width: 30rem;
-    padding: 5px;
-    border: 2px solid black;
-    border-radius: 5px;
+  main .section-cursos h2 {
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 35%; }
+  main .section-cursos .cursos {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center; }
-    .section-cursos .cursos .curso .card img {
-      width: 20rem;
-      height: 20rem; }
-    .section-cursos .cursos .curso .card p {
-      font-size: 1.5rem;
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      line-height: 20px;
-      text-align: center; }
+    justify-content: space-around; }
+    main .section-cursos .cursos .curso {
+      width: 30rem;
+      padding: 5px;
+      border: 2px solid black;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      main .section-cursos .cursos .curso .card img {
+        width: 20rem;
+        height: 20rem; }
+      main .section-cursos .cursos .curso .card p {
+        font-size: 1.5rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        line-height: 20px;
+        text-align: center; }
+  main .mixines {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+    main .mixines .testimonio1 {
+      width: 400px;
+      height: 300px;
+      background-color: #cfe9eb; }
+    main .mixines .testimonio2 {
+      width: 300px;
+      height: 200px;
+      background-color: #cfe9eb; }
+    main .mixines .testimonio3 {
+      width: 350px;
+      height: 500px;
+      background-color: #cfe9eb; }
+
+header {
+  width: 100%; }
+  header nav ul {
+    list-style: none;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    header nav ul li {
+      display: inline-block; }
+      header nav ul li a {
+        margin: 5px;
+        font-size: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #3a3a3a;
+        text-decoration: none; }
+      header nav ul li:hover {
+        padding: 2px;
+        background-color: #94a383;
+        border-radius: 10px;
+        transition: 0.4s ease; }
 
 footer {
-  margin-top: 20px; }
-  footer p {
-    color: darkolivegreen;
-    font-size: 2rem;
-    text-align: center; }
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  footer .facebook, footer .twitter, footer .whatsapp {
+    padding: 5px;
+    margin: 15px;
+    background-color: #d1d1f5;
+    border-radius: 5px; }
+    footer .facebook img, footer .twitter img, footer .whatsapp img {
+      height: 50px;
+      width: 50px; }
+  footer .twitter {
+    background-color: #474796; }
+  footer .whatsapp {
+    background-color: #3cc03c; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #e7e6e6; }
+
+section .hero {
+  width: 70%;
+  margin: 50px auto;
+  border: 2px solid black; }
+  section .hero img {
+    margin-left: 35%;
+    max-height: 40rem; }
