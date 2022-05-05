@@ -1,0 +1,10 @@
+En el archivo index.html sumé el SEO con las sigtes caracteristicas:
+Description, donde explique brevemente para que sirve esta pagina.
+Keywords, palabras claves haciendo alusion a los diferentes cursos.
+Encabezado, donde se resalta la intencion de la pagina.
+
+MAP: solamente lo utilize para el footer. Cambia el bg de cada div-red.
+
+Extend: lo utilize para ahorrarme codigo en el footer.
+
+Mixin: Fue generado para poder modificar cambios en tamaños, fue utilizado en el main.
